@@ -198,61 +198,61 @@ h1{
 }
 /* Background div sama animasi */
 .Assassin{
-    background-image: url(images/ling.jpg);
+    background-image: url(Images/ling.jpg);
     margin-left: 250px;
 }
 .Assassin:hover{
-    background-image: url(images/assassinhover.jpg);
+    background-image: url(Images/assassinhover.jpg);
     transition: 0.5s;
     scale: 1.25;
 }
 .Fighter{
-    background-image: url(images/Martis.jpg);
+    background-image: url(Images/Martis.jpg);
     background-size: cover;
     margin-left: 230px;
 }
 .Fighter:hover{
-    background-image: url(images/fighterhover.jpg);
+    background-image: url(Images/fighterhover.jpg);
     transition: 0.5s;
     scale: 1.25;
 }
 .Mage{
-    background-image: url(images/Lunox.jpg);
+    background-image: url(Images/Lunox.jpg);
     background-size: cover;
     margin-left: 250px;
 }
 .Mage:hover{
-    background-image: url(images/magehover.jpg);
+    background-image: url(Images/magehover.jpg);
     transition: 0.5s;
     scale: 1.25;
 }
 .Tank{
-    background-image: url(images/Tigreal.jpg);
+    background-image: url(Images/Tigreal.jpg);
     background-size: cover;
     margin-left: 230px;
 }
 .Tank:hover{
-    background-image: url(images/tankhover.jpg);
+    background-image: url(Images/tankhover.jpg);
     transition: 0.5s;
     scale: 1.25;
 }
 .Marksman{
-    background-image: url(images/Lesley.png);
+    background-image: url(Images/Lesley.png);
     background-size: cover;
     margin-left: 250px;
 }
 .Marksman:hover{
-    background-image: url(images/marksmanhover.jpg);
+    background-image: url(Images/marksmanhover.jpg);
     transition: 0.5s;
     scale: 1.25;
 }
 .Support{
-    background-image: url(images/Rafaela.jpg);
+    background-image: url(Images/Rafaela.jpg);
     background-size: cover;
     margin-left: 230px;
 }
 .Support:hover{
-    background-image: url(images/suppoerhover.jpg);
+    background-image: url(Images/suppoerhover.jpg);
     transition: 0.5s;
     scale: 1.25;
 }
