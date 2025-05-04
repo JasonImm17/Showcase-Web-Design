@@ -200,6 +200,7 @@ h1{
 .Assassin{
     background-image: url(Images/Ling.jpg);
     margin-left: 250px;
+    background-size: cover;
 }
 .Assassin:hover{
     background-image: url(Images/assassinhover.jpg);
