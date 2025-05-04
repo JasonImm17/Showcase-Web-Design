@@ -201,6 +201,7 @@ h1{
     background-image: url(Images/Ling.jpg);
     margin-left: 250px;
     background-size: cover;
+  transition: 0.5s;
 }
 .Assassin:hover{
     background-image: url(Images/assassinhover.jpg);
@@ -211,6 +212,7 @@ h1{
     background-image: url(Images/Martis.jpg);
     background-size: cover;
     margin-left: 230px;
+  transition: 0.5s;
 }
 .Fighter:hover{
     background-image: url(Images/fighterhover.jpg);
@@ -221,6 +223,7 @@ h1{
     background-image: url(Images/Lunox.jpg);
     background-size: cover;
     margin-left: 250px;
+  transition: 0.5s;
 }
 .Mage:hover{
     background-image: url(Images/magehover.jpg);
@@ -231,6 +234,7 @@ h1{
     background-image: url(Images/Tigreal.jpg);
     background-size: cover;
     margin-left: 230px;
+  transition: 0.5s;
 }
 .Tank:hover{
     background-image: url(Images/tankhover.jpg);
@@ -241,6 +245,7 @@ h1{
     background-image: url(Images/Lesley.png);
     background-size: cover;
     margin-left: 250px;
+  transition: 0.5s;
 }
 .Marksman:hover{
     background-image: url(Images/marksmanhover.jpg);
@@ -251,6 +256,7 @@ h1{
     background-image: url(Images/Rafaela.jpg);
     background-size: cover;
     margin-left: 230px;
+  transition: 0.5s;
 }
 .Support:hover{
     background-image: url(Images/suppoerhover.jpg);
