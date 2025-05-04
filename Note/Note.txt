@@ -1,0 +1,45 @@
+JobDesk:
+1. Vincent
+- Utama: Page Tutorial
+- Menggabungkan dan merapikan file keseluruhan
+- Membuat form
+- Membuat homepage
+
+2. Jason Enrico
+- Utama: Page Gallery
+- Membuat navbar
+- Membuat footer
+- Membuat homepage
+
+3. Jason Imannuel
+- Utama: Page History
+- Membuat footer
+- Membuat homepage
+
+4. Nathanael
+- Utama: Page E-Sport
+- Membuat navbar
+- Membuat bookmark (go to top)
+- Membuat homepage
+
+Update project:
+1. Home Page
+- Sudah dilengkapi dengan link ke page masing-masing
+
+
+2. Gallery
+- Tambahan section wallpaper, hero, content creator, dll
+- JavaScript sudah jalan
+- Sudah dirapikan
+- Sudah responsive
+
+3. Tutorial
+- Tulisan di gambar sudah dihapus
+4. E-Sport
+- Sudah responsive
+5. Sejarah 
+- Dirombak secara keseluruhan 
+6. Keseluruhan
+- Background dan tema sudah serasi
+- Navbar sudah rapi
+- Sudah ada footer dan bookmark back to top

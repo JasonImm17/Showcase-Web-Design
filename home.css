@@ -1,0 +1,488 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap%27");
+/* ========= */
+/* RESET CSS */
+/* ========= */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* ============= */
+/* END RESET CSS */
+/* ============= */
+
+/* ========= */
+/*   HOME    */
+/* ========= */
+
+body {
+  font-family: "Poppins";
+  background: radial-gradient(
+    31.74% 3046.23% at 50% 49.81%,
+    #242a42 0,
+    #121524 100%
+  );
+}
+
+/* ========= */
+/* VIDEO */
+/* ========= */
+.video-wrapper {
+  position: relative;
+}
+
+video {
+  width: 100%;
+  display: block;
+}
+
+/* Mengatur bagian tengah pada video */
+.header-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: center;
+}
+.header-container img {
+  display: inline-block;
+  /* height: 40%; */
+  width: 100%;
+}
+
+.header-container p {
+  font-size: 200px;
+}
+
+.header-container button {
+  width: fit-content;
+  padding: 10px 20px;
+  border: 2px solid #ebbd7e;
+  background-color: transparent;
+  transition: 0.3s;
+}
+.header-container button a {
+  text-decoration: none;
+  color: #ebbd7e;
+  font-style: bold;
+  font-size: 2em;
+  text-transform: uppercase;
+}
+.header-container button:hover {
+  background-color: #ebbd7e;
+}
+.header-container button:hover a {
+  color: black;
+}
+/* ========= */
+/* END VIDEO */
+/* ========= */
+
+/* ========= */
+/* ABOUT US */
+/* ========= */
+.about-content h2 {
+  font-size: 3em;
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+.about {
+  display: flex;
+  align-items: center;
+  padding: 25px 0;
+  gap: 40px;
+}
+.about-content {
+  display: flex;
+  width: 50%;
+  text-align: justify;
+  flex-direction: column;
+  gap: 15px;
+  line-height: 25px;
+}
+.about-image {
+  width: 50%;
+}
+.about-image img {
+  width: 100%;
+}
+/* ========= */
+/* END ABOUT US */
+/* ========= */
+
+.judul-partcontent h1 {
+  font-size: 400%;
+  font-weight: bold;
+}
+.button-partcontent button {
+  background-color: #415367;
+  margin-top: 10px;
+  height: 50px;
+  width: 200px;
+  font-size: 16px;
+  color: white;
+  font-weight: bolder;
+  border: none;
+}
+.button-partcontent button:hover {
+  background-color: rgb(23, 21, 21);
+}
+.button-partcontent button a {
+  text-decoration: none;
+  color: inherit;
+}
+.gallery {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 25px 0;
+  gap: 40px;
+}
+.gallery-image {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+.gallery-image img {
+  width: 33%;
+}
+.tutorial {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+  padding: 25px 0;
+}
+.tutorial-image{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+.tutorial-content {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: center;
+  width: 100%;
+}
+.tutorial-text {
+  width: 50%;
+}
+.e-sport {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+  padding: 25px 0;
+}
+.e-sport-image {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+}
+.esport-image-wrapper img {
+  width: 150px;
+  height: 150px;
+}
+.esport-image-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+}
+.esport-image-wrapper label {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.esport-image-wrapper h3 {
+  font-size: 130%;
+  font-weight: bold;
+}
+.history {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+  padding: 25px 0;
+}
+.history-image{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+.history-content {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 40px;
+  align-items: center;
+  width: 100%;
+}
+.history-text {
+  text-align: right;
+  width: 50%;
+}
+
+/* Background untuk content */
+.main-wrapper {
+  color: hsla(0, 0%, 100%, 0.7);
+  margin: 0 25px;
+}
+/* ========= */
+/* END HOME */
+/* ========= */
+
+/* ========= */
+/*  Footer   */
+/* ========= */
+footer {
+  height: 300px;
+  width: 100%;
+  margin: 30px auto;
+  background-color: black;
+  color: white;
+  padding: 30px;
+  text-align: center;
+}
+footer h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-top: 0.83em;
+  margin-bottom: 0.83em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+  padding-top: 10px;
+}
+footer button img {
+  height: 50px;
+  width: 50px;
+}
+
+footer p {
+  font-size: 14px;
+}
+
+.footer-col .social-links a {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.5s ease;
+}
+
+/* Hover on icons */
+.footer-col .social-links a:hover {
+  color: #24262b;
+  background-color: #ffffff;
+}
+/* ========= */
+/* End Footer */
+/* ========= */
+
+/* ========= */
+/* Teks belakang */
+/* ========= */
+.back-text,
+.back-text1 {
+    width: max-content;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    margin-left: 400px;
+    margin-top: 200px;
+    z-index: -3;
+    position: fixed;
+}
+
+.back-text span,
+.back-text1 span {
+    display: inline-block;
+    font-size: 250px;
+    font-weight: 700;
+    -webkit-text-stroke: 1px #405872;
+    -webkit-text-fill-color: transparent;
+    opacity: 50%;
+}
+
+.back-text1 {
+    margin-left: 750px;
+    margin-top: 450px;
+}
+/* ========= */
+/* End Teks belakang */
+/* ========= */
+
+@media screen and (max-width: 640px) {
+  .about {
+    flex-direction: column-reverse;
+  }
+  .about-content {
+    width: 100%;
+  }
+  .about-image {
+    width: 100%;
+  }
+  .e-sport-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .esport-image-wrapper {
+    width: 100%;
+  }
+  .history-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+  }
+  .history-image{
+    width: 100%;
+  }
+  .history-text{
+    text-align: center;
+    width: 100%;
+  }
+  .tutorial-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .tutorial-image{
+    width: 100%;
+  }
+  .tutorial-text{
+    text-align: center;
+    width: 100%;
+  }
+  
+}

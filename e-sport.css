@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap%27');
+body {
+    color: white;
+    background: radial-gradient(31.74% 3046.23% at 50% 49.81%,#242a42 0,#121524 100%);
+    font-family: "Poppins";
+}
+/* ========= */
+/* Teks belakang */
+/* ========= */
+.back-text,
+.back-text1 {
+    width: max-content;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    margin-left: 400px;
+    margin-top: 200px;
+    z-index: -3;
+    position: fixed;
+}
+
+.back-text span,
+.back-text1 span {
+    display: inline-block;
+    font-size: 250px;
+    font-weight: 700;
+    -webkit-text-stroke: 1px #405872;
+    -webkit-text-fill-color: transparent;
+    opacity: 50%;
+}
+
+.back-text1 {
+    margin-left: 750px;
+    margin-top: 450px;
+}
+/* ========= */
+/* End Teks belakang */
+/* ========= */
+.container {    
+    width: 80%;
+    margin: auto;
+    font-family: 'Poppins';
+}
+
+.image-moving{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.changeButton {
+    background: none;
+    border-radius: 10px;
+    padding: 7px;
+    margin: 3px;
+	font: inherit;
+	cursor: pointer;
+    color: white;
+    border-color: white;
+}
+.changeButton-active{
+    background: #533698;
+    border-color: #533698;
+    color: white;
+}
+.content{
+    display: none;
+}
+.content-active{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    transition: 0.4s;
+}
+.team-name{
+    width: 100%;
+    text-align: center;
+}
+.team-name h1{
+    font-size: 4em;
+    padding: 10px;
+}
+.logo{
+    width: 60px;
+    height: inherit;
+}
+.anggota{
+    display: flex;
+    align-items: center;
+    width: 65%;
+}
+.anggota-content{
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    width: 100%;
+}
+.anggota h2{
+    font-size: 3em;
+}
+.anggota h4{
+    opacity: 0.5;
+    font-size: 1.5em;
+}
+.anggota p{
+    font-weight: 100;
+}
+.image-anggota{
+    width: 35%;
+}
+.image-content{
+    width: 100%;
+    height: 100%;
+    transition: 0.4s;
+}
+
+/* ========= */
+/*  Footer   */
+/* ========= */
+footer {
+    height: 300px;
+    width: 100%;
+    margin: 30px auto;
+    background-color: black;
+    color: white;
+    padding: 30px;
+    text-align: center;
+  }
+  footer h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    padding-top: 10px;
+  }
+  footer button img {
+    height: 50px;
+    width: 50px;
+  }
+  
+  footer p {
+    font-size: 14px;
+  }
+  
+  .footer-col .social-links a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+  }
+  
+  /* Hover on icons */
+  .footer-col .social-links a:hover {
+    color: #24262b;
+    background-color: #ffffff;
+  }
+  /* ========= */
+  /* End Footer */
+  /* ========= */
+
+/* Link Instagram */
+.fa {
+    font-size: 20px;
+    width: fit-content;
+    text-align: center;
+    text-decoration: none;
+}
+.fa:hover{
+    color: black;
+}
+.fa-instagram{
+    color: white;
+}
+/* End Link Instagram */
+
+@media only screen and (max-width: 640px){
+    .team-name h1{
+        font-size: 2em;
+    }
+    .logo{
+        width: 40px;
+    }
+    .anggota h2{
+        font-size: 1.5em;
+    }
+    .anggota h4{
+        opacity: 0.5;
+        font-size: 0.75em;
+    }
+    .anggota p{
+        font-size: 60%;
+    }
+    .fa {
+        font-size: 15px;
+    }
+    .anggota:nth-child(even){
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .anggota:nth-child(odd){
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .anggota-content{
+        text-align: center;
+    }
+    .anggota a{
+        width: 100%;
+        text-align: center;
+    }
+}
